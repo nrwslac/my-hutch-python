@@ -5,7 +5,6 @@ import time
 import sys
 
 class AvgCalc():
-
     def __init__(self, name):
         self.filename = name
         self.read()
@@ -33,11 +32,6 @@ class AvgCalc():
                 print(current_axis, avg / 5.0)
             else:
                 i += 1
-
-
-
-                    
-
 
 
 class AxisLimits(Device):
